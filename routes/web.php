@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 
 Route::resource('api/sentences', 'SentencesController');
+
+Route::post('register', 'Auth\RegisterController@register');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,0 +1,1 @@
+Can entries be made to DB from frontend?

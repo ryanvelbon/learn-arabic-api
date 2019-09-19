@@ -26,6 +26,7 @@ class SentencesController extends Controller
             'sentence_en' =>
                 array(
                     'required',
+                    'regex:/('.config('constants.regex.sentence_en').')/u'
                 )
         ]);
 
